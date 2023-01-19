@@ -27,6 +27,10 @@ export default class TextToSVG {
     return new TextToSVG(opentype.loadSync(file));
   }
 
+  static loadData(data) {
+    return new TextToSVG(data);
+  }
+
   static load(url, cb) {
     opentype.load(url, (err, font) => {
       if (err !== null) {

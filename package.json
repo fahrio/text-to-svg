@@ -2,7 +2,7 @@
   "name": "text-to-svg",
   "version": "3.1.5",
   "description": "Convert text to SVG path without native dependence.",
-  "main": "index.js",
+  "main": "src/index.js",
   "files": [
     ".gitignore",
     "CHANGELOG.md",
